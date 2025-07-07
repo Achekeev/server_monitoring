@@ -37,7 +37,7 @@ if ! docker compose version &>/dev/null; then
 fi
 
 echo "[+] Pulling missing images"
-$COMPOSE pull --quiet --ignore-pull-failures --pull missing
+$COMPOSE pull --quiet --ignore-pull-failures missing
 
 echo "[+] Starting stopped services"
 for svc in $($COMPOSE config --services); do
