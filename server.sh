@@ -1,3 +1,5 @@
+#! /usr/bin/env/bash
+
 set -euo pipefail
 
 REPO_URL="https://github.com/Achekeev/server_monitoring.git"
