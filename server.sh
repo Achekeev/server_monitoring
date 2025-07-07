@@ -1,6 +1,6 @@
 
 #!/usr/bin/env bash
-set -euo pipefail
+set -eu pipefail
 
 REPO_URL="https://github.com/your-org/server_monitoring.git"
 STACK_DIR="/opt/monitoring"     
