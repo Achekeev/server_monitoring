@@ -3,7 +3,7 @@
 set -euo pipefail
 
 sudo apt-get update 
-sudo apt-get install -y ca-certificates curl lsb-release.jpg
+sudo apt-get install -y ca-certificates curl lsb-release jq
 
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
