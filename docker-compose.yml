@@ -10,7 +10,7 @@ services:
     restart: unless-stopped
     networks: [monitor]
     ports:
-      - "9090:9090"
+      - "9095:9095"
 
   alertmanager:
     image: prom/alertmanager:latest
